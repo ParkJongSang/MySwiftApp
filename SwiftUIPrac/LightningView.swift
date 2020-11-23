@@ -2,7 +2,6 @@
 //  LightningView.swift
 //  SwiftUIPrac
 //
-//  Created by USER on 2020/11/23.
 //
 
 import SwiftUI

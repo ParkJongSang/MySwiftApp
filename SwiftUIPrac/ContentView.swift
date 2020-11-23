@@ -2,7 +2,6 @@
 //  ContentView.swift
 //  SwiftUIPrac
 //
-//  Created by USER on 2020/11/19.
 //
 
 import SwiftUI
