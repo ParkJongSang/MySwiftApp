@@ -20,17 +20,13 @@ struct CrazyView: View {
 struct ContentView: View {
     var body: some View {
         ZStack {
-            CrazyView()
-                .frame(width: 300, height: 300)
-
-            CrazyView()
-                .frame(width: 200, height: 300)
-
-            CrazyView()
-                .frame(width: 100, height: 100)
+            VStack {
+                LoadingView()
+                Text("#LoadingView")
+                    .font(.headline)
+            }
         }
-        .frame(width: 800, height: 400)
-        .background(RadialGradient(gradient:Gradient(colors: [.black, Color.purple.opacity(0.3), Color.red.opacity(0.6)]), center: .center, startRadius: 0, endRadius: 400))
-        .drawingGroup()
+        .frame(maxWidth: .infinity,maxHeight: .infinity)
+        .background(Color.white)
     }
 }
