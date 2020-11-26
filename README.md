@@ -13,6 +13,6 @@
 
 
 ### [RotatorView](https://github.com/ParkJongSang/MySwiftApp/blob/main/SwiftUIPrac/RotatorView.swift)
-![ezgif com-video-to-gif (1)](https://user-images.githubusercontent.com/23237449/100342237-0de38280-3021-11eb-83a5-c235e0dd3d50.gif)
+![RotatorView](https://user-images.githubusercontent.com/23237449/100343309-8ac32c00-3022-11eb-95d6-f8515f43a450.gif)
 
 출처: https://gist.github.com/izakpavel/cb3059a11edb1e61c3c6c4c17a4da6be
