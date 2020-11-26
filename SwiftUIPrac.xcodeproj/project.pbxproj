@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE072C14256FBB0D004F3393 /* RotatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE072C13256FBB0D004F3393 /* RotatorView.swift */; };
 		CE2973F0256D2B99000BDFBF /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2973EF256D2B99000BDFBF /* LoadingView.swift */; };
 		CE30B91025663FAF00531F24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30B90F25663FAF00531F24 /* AppDelegate.swift */; };
 		CE30B91225663FAF00531F24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30B91125663FAF00531F24 /* SceneDelegate.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE072C13256FBB0D004F3393 /* RotatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatorView.swift; sourceTree = "<group>"; };
 		CE2973EF256D2B99000BDFBF /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		CE30B90C25663FAF00531F24 /* SwiftUIPrac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPrac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE30B90F25663FAF00531F24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				CE30B91125663FAF00531F24 /* SceneDelegate.swift */,
 				CE30B91325663FAF00531F24 /* ContentView.swift */,
 				CEAE1482256BCC15000EFF07 /* LightningView.swift */,
+				CE072C13256FBB0D004F3393 /* RotatorView.swift */,
 				CE2973EF256D2B99000BDFBF /* LoadingView.swift */,
 				CE30B91825663FB100531F24 /* Assets.xcassets */,
 				CE30B91D25663FB100531F24 /* LaunchScreen.storyboard */,
@@ -276,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE2973F0256D2B99000BDFBF /* LoadingView.swift in Sources */,
+				CE072C14256FBB0D004F3393 /* RotatorView.swift in Sources */,
 				CE30B91025663FAF00531F24 /* AppDelegate.swift in Sources */,
 				CE30B91725663FAF00531F24 /* SwiftUIPrac.xcdatamodeld in Sources */,
 				CE30B91225663FAF00531F24 /* SceneDelegate.swift in Sources */,

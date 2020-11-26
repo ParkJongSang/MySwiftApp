@@ -33,8 +33,15 @@ struct ContentView: View {
                 }
                 .navigationTitle("로딩 뷰(아이패드 air)")
                 .padding(.all, 10)
+
+                NavigationLink(destination: RotatorView()) {
+                    Text("Rotator View")
+                }
+                .navigationTitle("Rotator View")
+                .padding(.all, 10)
             }
         }
+        .navigationTitle("애니메이션")
 //        ZStack {
 //            VStack {
 //                LoadingView()
@@ -44,11 +51,5 @@ struct ContentView: View {
 //        }
 //        .frame(maxWidth: .infinity,maxHeight: .infinity)
 //        .background(Color.white)
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
     }
 }
