@@ -1,4 +1,6 @@
 # MySwiftApp
+### Main
+![image](https://user-images.githubusercontent.com/23237449/100498066-f92ef800-31a2-11eb-9a10-fb091348a037.png)
 
 ### [Lightning Animaion](https://github.com/ParkJongSang/MySwiftApp/blob/main/SwiftUIPrac/LightningView.swift)
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/23237449/99954723-8bf81d00-2dc6-11eb-8f37-c8f3436a95be.gif)
