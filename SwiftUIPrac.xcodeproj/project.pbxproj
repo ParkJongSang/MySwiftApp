@@ -107,12 +107,10 @@
 		CE30B90E25663FAF00531F24 /* SwiftUIPrac */ = {
 			isa = PBXGroup;
 			children = (
+				DA48997625724E98005E39ED /* Animations */,
 				CE30B90F25663FAF00531F24 /* AppDelegate.swift */,
 				CE30B91125663FAF00531F24 /* SceneDelegate.swift */,
 				CE30B91325663FAF00531F24 /* ContentView.swift */,
-				CEAE1482256BCC15000EFF07 /* LightningView.swift */,
-				CE072C13256FBB0D004F3393 /* RotatorView.swift */,
-				CE2973EF256D2B99000BDFBF /* LoadingView.swift */,
 				CE30B91825663FB100531F24 /* Assets.xcassets */,
 				CE30B91D25663FB100531F24 /* LaunchScreen.storyboard */,
 				CE30B92025663FB100531F24 /* Info.plist */,
@@ -146,6 +144,16 @@
 				CE30B93625663FB200531F24 /* Info.plist */,
 			);
 			path = SwiftUIPracUITests;
+			sourceTree = "<group>";
+		};
+		DA48997625724E98005E39ED /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				CEAE1482256BCC15000EFF07 /* LightningView.swift */,
+				CE072C13256FBB0D004F3393 /* RotatorView.swift */,
+				CE2973EF256D2B99000BDFBF /* LoadingView.swift */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
