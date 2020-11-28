@@ -6,50 +6,38 @@
 
 import SwiftUI
 
-struct CrazyView: View {
-    var body: some View {
-        ZStack {
-            ForEach(0..<30) { index in
-                LightningView()
-                    .blendMode(.plusLighter)
-            }
-        }
-    }
-}
-
 struct ContentView: View {
+	let crazyViewLink: some View = {
+		NavigationLink(destination: CrazyView().frame(width: 200, height: 200)) {
+			Text("Crazy View")
+		}
+		.padding(.all, 10)
+	}()
+
+	let loadingViewLink: some View = {
+		NavigationLink(destination: LoadingView()) {
+			Text("Loading View")
+		}
+		.padding(.all, 10)
+	}()
+
+	let rotatorViewLink: some View = {
+		NavigationLink(destination: RotatorView()) {
+			Text("Rotator View")
+		}
+		.padding(.all, 10)
+	}()
+
     var body: some View {
-
-        NavigationView {
-            VStack {
-                NavigationLink(destination: CrazyView().frame(width: 200, height: 200)) {
-                    Text("Crazy View")
-                }
-                .navigationTitle("라이트닝 뷰")
-                .padding(.all, 10)
-
-                NavigationLink(destination: LoadingView()) {
-                    Text("Loading View")
-                }
-                .navigationTitle("로딩 뷰(아이패드 air)")
-                .padding(.all, 10)
-
-                NavigationLink(destination: RotatorView()) {
-                    Text("Rotator View")
-                }
-                .navigationTitle("Rotator View")
-                .padding(.all, 10)
-            }
-        }
-        .navigationTitle("애니메이션")
-//        ZStack {
-//            VStack {
-//                LoadingView()
-//                Text("#LoadingView")
-//                    .font(.headline)
-//            }
-//        }
-//        .frame(maxWidth: .infinity,maxHeight: .infinity)
-//        .background(Color.white)
+		ZStack {
+			NavigationView {
+				VStack {
+					crazyViewLink
+					loadingViewLink
+					rotatorViewLink
+				}
+				.navigationBarTitle("Animations")
+			}
+		}
     }
 }

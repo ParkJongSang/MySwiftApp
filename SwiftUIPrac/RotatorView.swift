@@ -95,6 +95,7 @@ struct RotatorView: View {
     var body: some View {
         CompassView()
             .frame(width: 300, height: 300, alignment: .center)
+			.navigationBarTitle("Rotator View")
     }
 }
 

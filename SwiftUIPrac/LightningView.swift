@@ -104,3 +104,15 @@ struct LightningView: View {
         })
     }
 }
+
+struct CrazyView: View {
+	var body: some View {
+		ZStack {
+			ForEach(0..<30) { index in
+				LightningView()
+					.blendMode(.plusLighter)
+			}
+		}
+		.navigationBarTitle("Crazy View")
+	}
+}

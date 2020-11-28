@@ -77,6 +77,7 @@ struct LoadingView: View {
                     .animation(Animation.easeInOut(duration: 1.0).delay(self.circleDelay(index: index)))
             }
         }
+		.navigationBarTitle("Loading View")
         .frame(width: 2*diameter, height: 2*diameter)
         .onAppear() {
             self.animate()
