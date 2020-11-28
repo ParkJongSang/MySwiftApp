@@ -10,8 +10,14 @@ struct LoadingView: View {
     let diameter: CGFloat = 100.0
     let circleSize: CGFloat = 40.0
     let cutOut: CGFloat = 0.8
+	let navigationText: String
+
     @State var flipped: Bool = false
     @State var startAngle: CGFloat = 0
+
+	init(title: String = "") {
+		self.navigationText = title
+	}
 
     func interpolateColor(_ i: Double) -> Color {
         let colors: [UIColor] = [.blue, .cyan, .red, .orange]
@@ -77,7 +83,7 @@ struct LoadingView: View {
                     .animation(Animation.easeInOut(duration: 1.0).delay(self.circleDelay(index: index)))
             }
         }
-		.navigationBarTitle("Loading View")
+		.navigationBarTitle(navigationText)
         .frame(width: 2*diameter, height: 2*diameter)
         .onAppear() {
             self.animate()

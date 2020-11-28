@@ -92,10 +92,16 @@ struct CompassView: View {
 }
 
 struct RotatorView: View {
+	let navigationText: String
+
+	init(title: String = "") {
+		self.navigationText = title
+	}
+
     var body: some View {
         CompassView()
             .frame(width: 300, height: 300, alignment: .center)
-			.navigationBarTitle("Rotator View")
+			.navigationBarTitle(navigationText)
     }
 }
 

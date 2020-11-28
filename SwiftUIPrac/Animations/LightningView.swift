@@ -106,6 +106,12 @@ struct LightningView: View {
 }
 
 struct CrazyView: View {
+	let navigationText: String
+
+	init(title: String = "") {
+		self.navigationText = title
+	}
+
 	var body: some View {
 		ZStack {
 			ForEach(0..<30) { index in
@@ -113,6 +119,6 @@ struct CrazyView: View {
 					.blendMode(.plusLighter)
 			}
 		}
-		.navigationBarTitle("Crazy View")
+		.navigationBarTitle(self.navigationText)
 	}
 }
