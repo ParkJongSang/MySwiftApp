@@ -19,6 +19,7 @@
 		CE30B92A25663FB200531F24 /* SwiftUIPracTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30B92925663FB200531F24 /* SwiftUIPracTests.swift */; };
 		CE30B93525663FB200531F24 /* SwiftUIPracUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30B93425663FB200531F24 /* SwiftUIPracUITests.swift */; };
 		CEAE1483256BCC15000EFF07 /* LightningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE1482256BCC15000EFF07 /* LightningView.swift */; };
+		DA48997C25737DDD005E39ED /* CheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA48997B25737DDD005E39ED /* CheckView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		CE30B93425663FB200531F24 /* SwiftUIPracUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracUITests.swift; sourceTree = "<group>"; };
 		CE30B93625663FB200531F24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEAE1482256BCC15000EFF07 /* LightningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightningView.swift; sourceTree = "<group>"; };
+		DA48997B25737DDD005E39ED /* CheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		CE30B90E25663FAF00531F24 /* SwiftUIPrac */ = {
 			isa = PBXGroup;
 			children = (
+				DA48997A25737DC7005E39ED /* Views */,
 				DA48997625724E98005E39ED /* Animations */,
 				CE30B90F25663FAF00531F24 /* AppDelegate.swift */,
 				CE30B91125663FAF00531F24 /* SceneDelegate.swift */,
@@ -154,6 +157,14 @@
 				CE2973EF256D2B99000BDFBF /* LoadingView.swift */,
 			);
 			path = Animations;
+			sourceTree = "<group>";
+		};
+		DA48997A25737DC7005E39ED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DA48997B25737DDD005E39ED /* CheckView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +299,7 @@
 			files = (
 				CE2973F0256D2B99000BDFBF /* LoadingView.swift in Sources */,
 				CE072C14256FBB0D004F3393 /* RotatorView.swift in Sources */,
+				DA48997C25737DDD005E39ED /* CheckView.swift in Sources */,
 				CE30B91025663FAF00531F24 /* AppDelegate.swift in Sources */,
 				CE30B91725663FAF00531F24 /* SwiftUIPrac.xcdatamodeld in Sources */,
 				CE30B91225663FAF00531F24 /* SceneDelegate.swift in Sources */,

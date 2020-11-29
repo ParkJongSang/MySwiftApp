@@ -28,6 +28,13 @@ struct ContentView: View {
 		.padding(.all, 10)
 	}()
 
+	let checkViewLink: some View = {
+		NavigationLink(destination: CheckView()){
+				Text("Check View")
+		}
+		.padding(.all, 10)
+	}()
+
     var body: some View {
 		ZStack {
 			NavigationView {
@@ -35,6 +42,7 @@ struct ContentView: View {
 					crazyViewLink
 					loadingViewLink
 					rotatorViewLink
+					checkViewLink
 				}
 				.navigationBarTitle("Animations")
 			}
