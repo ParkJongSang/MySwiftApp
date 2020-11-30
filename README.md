@@ -1,4 +1,6 @@
 # MySwiftApp
+### 애니메이션 연습용 앱입니다.
+
 ### Main
 ![image](https://user-images.githubusercontent.com/23237449/100536706-b2560680-3265-11eb-9cb9-b4c8c9f498a6.png)
 
